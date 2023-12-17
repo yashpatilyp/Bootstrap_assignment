@@ -1,0 +1,166 @@
+body {
+  background: linear-gradient(to bottom, orange, white, green);
+}
+
+/* ------------index.html-------------- */
+
+/* navbar */
+.nav {
+  padding: 10px;
+}
+.nav ul {
+  background: linear-gradient(to bottom, orange, white, green);
+}
+
+/* banner  */
+
+.banner {
+  width: 100%;
+  height: 500px;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .banner {
+    height: 100%;
+  }
+}
+
+/* cards */
+
+.card {
+  background: linear-gradient(to bottom, orange, white, rgb(150, 219, 123));
+}
+
+.card-body h5 {
+  color: black;
+  font-family: cursive;
+  font-weight: 900;
+}
+.nav a {
+  color: rgb(13, 0, 0);
+  font-family: monospace;
+}
+.container-center img {
+  height: 330px;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.container-center img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.container-center {
+  display: flex;
+  justify-content: space-around;
+}
+
+section .card-body {
+  height: 320px;
+}
+
+.over{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* button */
+
+.button {
+  margin-bottom: 10px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer  */
+
+.footer a {
+  color: white;
+}
+.footer p {
+  color: white;
+}
+.footer a:hover {
+  color: orange;
+}
+
+/* ...........ms_dhoni.html , virat.html , jadeja.html , rohit.html...................  */
+
+.content {
+  text-align: justify;
+}
+
+.content img {
+
+  border: 2px solid black;
+}
+.content img:hover {
+    border-radius: 10px;
+    transform:rotateZ(10deg);
+
+  }
+
+/* ............... about.html .........  */
+.container-2 {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.container-2 h1 {
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image img {
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 100%; 
+ 
+  max-width: 300px;  
+  margin: 0 auto; 
+}
+
+.content-2 {
+  flex: 1; 
+  margin: 20px; 
+}
+
+.content-2 h5 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+  .about-content {
+    flex-direction: column;
+     
+  }
+  .content-2 h5 {
+    font-size: 15px;
+  }
+
+  
+  
+
+  .image img {
+    margin: 0; 
+  }
+
+  .content-2 {
+    margin: 20px 0; 
+  }
+}

@@ -1,0 +1,37 @@
+
+
+// index.html:
+   I used jquery for separating the header and footer code . Using jQuery to separate header and footer code means you're using jQuery, a JavaScript library,
+   to organize and manage the code for your website's header and footer separately.
+1. Bootstrap CSS,jquery and JS  links are added in the head tag.
+2. The navigation bar is created using the Bootstrap nav-pills class, with items aligned to the right using justify-content-end.
+3. Profile dropdown links are added using anchor tags for page redirection.
+4. Linear gradient background color is set for the entire page.
+5. Banner section is added after the navbar.
+6. Media query is implemented for responsiveness in the banner section.
+7. Bootstrap cards are used to create four player cards with a linear gradient background.
+8. Card images are placed at the top using the card-img-top class, and a hover effect is added.
+9. Anchor tags on buttons allow redirection to other pages.
+10. A footer is added and centered using the justify-content-center class.
+
+// ms_dhoni.html , virat.html , jadeja.html , rohit.html:
+
+1. Similar navigation bar structure as in index.html.
+2. Banner image is added using an external stylesheet for styling.
+3. Corrected grammar and improved the thoughtnote for clarity.
+4.Images are centered using the classes d-block and mx-auto.
+  The style attribute sets a fixed width of 300px for the images.
+  a hover effect is applied to images, giving them a rounded border and a slight rotation.
+5.The text content is organized into two columns within each row.
+
+// about.html
+
+1.A container div with the class container-2 wraps the entire section.
+The about-content class utilizes Flexbox to arrange child elements in a row.
+On smaller screens , the layout adjusts using Flexbox to column direction.
+2.Inside the section, there's a div with the class about-content containing 
+  two child divs one for  image and another for content (content-2).
+  The media query adjusts the layout for smaller screens by changing the flex-direction to column within .about-content.
+
+
+  
